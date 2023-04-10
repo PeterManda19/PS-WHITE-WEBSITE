@@ -1,0 +1,76 @@
+/* set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+  
+/* set header styles */
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+/* set section heading styles */
+h2 {
+    font-size: 1.5em;
+}
+
+/* set link styles */
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* set list styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* set image gallery styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #264653;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* add responsive styles */
+@media screen and (max-width: 768px) {
+/* set header styles */
+h1 {
+    font-size: 1.5em;
+}
+
+/* set section heading styles */
+h2 {
+    font-size: 1.2em;
+}
+
+/* set image gallery styles */
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+}
